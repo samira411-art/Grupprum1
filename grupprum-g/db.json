@@ -1,0 +1,63 @@
+{
+  "rooms": [
+    {
+      "id": "1",
+      "name": "Grupprum 1",
+      "floor": 1,
+      "capacity": 4,
+      "hasWhiteboard": true,
+      "hasScreen": false
+    },
+    {
+      "id": "2",
+      "name": "Grupprum 2",
+      "floor": 1,
+      "capacity": 6,
+      "hasWhiteboard": true,
+      "hasScreen": true
+    },
+    {
+      "id": "3",
+      "name": "Grupprum 3",
+      "floor": 2,
+      "capacity": 2,
+      "hasWhiteboard": false,
+      "hasScreen": false
+    },
+    {
+      "id": "4",
+      "name": "Grupprum 4",
+      "floor": 2,
+      "capacity": 8,
+      "hasWhiteboard": true,
+      "hasScreen": true
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "roomId": "1",
+      "email": "anna@example.com",
+      "start": "2026-08-27T10:00:00",
+      "end": "2026-08-27T11:00:00",
+      "status": "confirmed"
+    },
+    {
+      "id": "2",
+      "roomId": "3",
+      "email": "erik@example.com",
+      "start": "2026-08-27T14:00:00",
+      "end": "2026-08-27T15:30:00",
+      "status": "confirmed"
+    },
+    {
+      "roomId": "1",
+      "email": "hakka@hotmail.com",
+      "start": "2026-08-18T16:33",
+      "end": "2026-08-20T15:32",
+      "id": "ykD97FM5r64",
+      "status": "confirmed"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
