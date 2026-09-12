@@ -2,10 +2,7 @@ Boka grupprum
 
 Bokningssystem för grupprum på biblioteket. Gjort med React, TypeScript och json-server (ingen egen backend, det ska vi inte bygga enligt uppgiften).
 
-Gruppmedlemmar
-Samira Jama (samira411-art)
-Vad appen gör
-
+Vad appen gör 
 Man kan se vilka grupprum som finns och boka ett rum genom att skriva in sin mejl och välja tid. Ingen inloggning, man skriver bara mejlen varje gång. Två saker hänger ihop: Room är själva rummet, Booking är en bokning av ett rum. Appen kollar så man inte kan boka ett rum på en tid som redan är upptagen.
 
 Så kör du igång det
