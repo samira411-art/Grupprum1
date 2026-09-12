@@ -10,7 +10,7 @@ Så kör du igång det
 
 npm install
 Kopiera 
-.env.example och döp kopian till .env (då slipper vi skriva adressen till json-server rakt i koden)
+.env.example och döp kopian till .env
 Starta json-server i ett terminalfönster:
    npx json-server db.json --port 3000
 Starta dev-servern i ett annat fönster:
