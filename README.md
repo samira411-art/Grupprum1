@@ -9,7 +9,8 @@ Man kan se vilka grupprum som finns och boka ett rum genom att skriva in sin mej
 Så kör du igång det
 
 npm install
-Kopiera .env.example och döp kopian till .env (då slipper vi skriva adressen till json-server rakt i koden)
+Kopiera 
+.env.example och döp kopian till .env (då slipper vi skriva adressen till json-server rakt i koden)
 Starta json-server i ett terminalfönster:
    npx json-server db.json --port 3000
 Starta dev-servern i ett annat fönster:
